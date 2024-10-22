@@ -86,7 +86,7 @@ const VideoCarousel = () => {
         },
       });
 
-      if (videoId == 0) {
+      if (videoId === 0) {
         anim.restart();
       }
 
