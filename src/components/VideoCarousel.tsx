@@ -6,6 +6,7 @@ import { useEffect, useRef, useState } from "react";
 
 import { hightlightsSlides } from "../constants";
 import { pauseImg, playImg, replayImg } from "../utils";
+import React from "react";
 
 const VideoCarousel = () => {
   const videoRef = useRef([]);
